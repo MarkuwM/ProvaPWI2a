@@ -5,24 +5,23 @@ let celular = document.getElementById('celular')
 let salvar = document.getElementById('salvar')
 let limpar = document.getElementById('limpar')
 
-function campos(){
-    if(nome = null){
-        alert('Preencha todos os campos')
-    }else if(email = null){
-        alert('Preencha todos os campos')
-    }else if(telefone = null){
-        alert('Preencha todos os campos')
-    }else if(celular = null){
-        alert('Preencha todos os campos')
-    }else{
-        alert('Cadastro realizado com sucesso')
+function salvar() {
+    let nome = document.getElementById("nome").value;
+    let email = document.getElementById("email").value;
+    let telefone = document.getElementById("telefone").value;
+    let celular = document.getElementById("celular").value;
+
+    if (nome && email && telefone && celular) {
+        alert("Cadastro realizado com sucesso");
+    } else {
+        alert("Preencha todos os campos");
     }
 }
 
 salvar.addEventListener('click', campos)
-limpar.addEventListener('click', function(){
-    nome = document.getElementById('nome').value = ' '
-    email = document.getElementById('email').value = ' '
-    telefone = document.getElementById('telefone').value = ' '
-    celular = document.getElementById('celular').value = ' '
+limpar.addEventListener('click', function () {
+    nome = document.getElementById('nome').value = ""
+    email = document.getElementById('email').value = ""
+    telefone = document.getElementById('telefone').value = ""
+    celular = document.getElementById('celular').value = ""
 })
