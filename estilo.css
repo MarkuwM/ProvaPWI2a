@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#barra{
+    background-color: royalblue;
+}
+#barra ul li{
+    display: inline-flex;
+    justify-content: end;
+}
+#barra ul li a{
+    font-family: Verdana;
+    color: white;
+    text-decoration: none;
+}
+
+#perfil{
+    display: flexbox;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 3px;
+    width: 20%;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+#perfil #foto{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+#perfil #nomeFulano{
+    margin-top: 10px;
+    text-align: center;
+    font-family: verdana;
+}
+#telaprincipal{
+    display: inline;
+}
+#bv{
+    display: flex;
+}
+#bemvindo{
+    font-family: verdana;
+    color: blue;
+    display: inline;
+    text-align: center;
+}
+#campomae{
+    background-color: rgb(240, 240, 240);
+    display: flexbox;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+#campomae .letra{
+    margin: 10px auto;
+    display: block;
+}
+#campomae .campo1{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+#campomae .campo2{
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+#campomae #salvar{
+    color: white;
+    background-color: royalblue;
+    padding: 10px;
+    border-radius: 5px;
+    border: royalblue 2px solid;
+    font-family: verdana;
+    display: inline-block;
+}
+#campomae #salvar:hover{
+    color: blue;
+    background-color: white;
+    border: blue 2px solid;
+}
+#campomae #limpar:hover{
+    color: white;
+    background-color: blue;
+    border: blue 2px solid;
+}
+#campomae #limpar{
+    color: royalblue;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: royalblue 2px solid;
+    font-family: verdana;
+    display: inline-block;
+}
